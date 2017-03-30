@@ -1,6 +1,0 @@
-{
-  "dependencies" : {
-    "corespring-multiple-choice-vue" : "../.."
-  },
-  "resolutions" : {}
-}

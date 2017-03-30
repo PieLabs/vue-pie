@@ -1,29 +1,23 @@
 {
-  "name": "corespring-multiple-choice-vue",
+  "name": "vue-pie",
   "version": "0.0.1",
   "main": "src/index.js",
-  "description": "VueJs / Typescript implementation test",
-  "scripts": {
-    "dev": "webpack-dev-server --inline --progress --profile --colors --watch --display-error-details --display-cached --content-base src/",
-    "clean": "rm -rf dist",
-    "build": "webpack"
-  },
+  "description": "Vue Pie test",
+  "scripts": {},
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "vue": "^1.0.26",
-    "vue-typescript": "^0.7.0"
+    "vue": "^2.2.6"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "copy-webpack-plugin": "^3.0.1",
-    "css-loader": "^0.25.0",
-    "html-webpack-plugin": "^2.22.0",
-    "typescript": "^1.8.10",
-    "typings": "^1.3.3",
-    "vue-element": "^1.0.1",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.2"
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
   }
 }

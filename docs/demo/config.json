@@ -1,11 +1,11 @@
 {
-  "components": [
+  "elements" : {
+    "corespring-multiple-choice-vue" : "../.."
+  },
+  "models": [
     {
       "id": "1",
-      "component": {
-        "name": "corespring-multiple-choice-vue",
-        "version": "1.0.0"
-      },
+      "element":  "corespring-multiple-choice-vue",
       "correctResponse" : ["apple", "carrot"],
       "feedback" : {
         "apple" : "$FB_APPLE",
